@@ -1,0 +1,10 @@
+This file is for the TaxReturn.java file and PrepareTax.java file because both files work together for one purpose which I will get into right now.
+The TaxReturn.java file is a class file that does all the heavy lifting for the main project file, i.e PrepareTax.java file. 
+Look at it as a blueprint for the building of the program that is the brains of the operation and the main project is where the meat goes in.
+The class will build a constructor with the variables known as socialSN, lName, fName, address, etc. as the main program will ask the user to put in their social security number,
+last name, address, city, zip code, etc.
+This will emulate an actual tax return in the real world, but as a program that will do the calculations of the user's annual income.
+That's where the boolean method comes in because this will check to make sure each statement is either true or false and will output the correct statement.
+The display method is there to print out the inputs the user has enter and will calculate the user's income based on their marital status and with the correct percentage as well.
+Moving on to the main program itself, this program will utilize the user's inputs for all tax return data. Each line will ask the user to input whatever the program is asking them to
+enter and will check to see if it is valid. If the data is incorrect then the program will ask them to enter the correct data again until they have done so.
